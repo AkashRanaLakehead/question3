@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#FAFAFA">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select an App to Launch"
+        android:textSize="24sp"
+        android:textColor="#333"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnOpenCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Calculator"
+        android:textSize="18sp"
+        android:background="#FF6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnOpenWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Weather App"
+        android:textSize="18sp"
+        android:background="#FF018786"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
